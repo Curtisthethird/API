@@ -46,6 +46,8 @@
                 .then(content => {
                     console.log(content.data)
                     console.log('META', content.meta)
+                    let fig = document.createElement('figue');
+                    let img = document.createElement('img');
                 })
                 .catch(err =>{
                     console.error(err);
